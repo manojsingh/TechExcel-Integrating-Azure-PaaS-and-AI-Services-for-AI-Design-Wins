@@ -29,6 +29,7 @@ var abbrs = loadJsonContent('./abbreviations.json')
 var tags = {
   // Tag all resources with the environment name.
   'azd-env-name': environmentName
+  'azd-service-name': 'contoso-vectorizer'  // Add this line
 }
 
 // Generate a unique token to be used in naming resources.
